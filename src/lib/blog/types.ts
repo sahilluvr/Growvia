@@ -1,0 +1,2 @@
+export type Post = { slug: string; title: string; description: string; keywords: string[]; category: string; published: string; updated: string; body: string; hub?: string; seo_title?: string; meta_description?: string };
+export type LocalPage = { slug: string; title: string; description: string; keywords: string[]; county: string; state: string; stateCode: string; metro: string; population: string; published: string; updated: string; body: string; seo_title?: string; meta_description?: string };

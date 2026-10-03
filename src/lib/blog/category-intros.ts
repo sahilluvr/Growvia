@@ -1,0 +1,22 @@
+// Short introductions for /blog/category/<cat> pages, so each topic page explains what it covers.
+export const CATEGORY_INTROS: Record<string, string> = {
+  Dentists: "Marketing guides for dental practices: ranking in Google Maps, getting reviews without HIPAA mistakes, filling the hygiene schedule with recall and reactivation, choosing between Google Ads and Local Services Ads, building a website that books new patients, and getting recommended by AI assistants. Every guide is written for a busy practice owner or office manager, with templates and checklists you can use this week.",
+  Lawyers: "Marketing guides for law firms: intake that wins the case, law firm SEO, Local Services Ads, reviews within bar ethics rules, state-by-state advertising rules, personal injury, family law and estate planning marketing, and showing up when clients ask ChatGPT for a lawyer. Plain English, compliance-aware and practical — not legal advice.",
+  "Medical & wellness": "Guides for clinics, chiropractors, med spas and physical therapy practices: patient acquisition, HIPAA-compliant marketing, tracking pixels and privacy, reviews and referral marketing. Each guide explains what's allowed, what's risky and how to grow without putting patient information in the wrong tools.",
+  "Home services": "Guides for plumbers, HVAC companies, roofers and electricians: winning emergency 'near me' calls, Local Services Ads, never missing a lead, seasonal marketing calendars and ethical storm-season marketing. Built for owners who'd rather be on the job than in a marketing dashboard.",
+  "Real estate": "Guides for real estate agents and teams after the NAR settlement: lead follow-up that lasts 12 months, hyperlocal neighborhood SEO, video and social media, and Fair Housing-safe advertising.",
+  Accountants: "Guides for CPAs, accountants and tax firms: a month-by-month tax season marketing calendar, accounting firm SEO and an all-in-one growth system that keeps clients coming back after April.",
+  Restaurants: "Guides for restaurants and cafés: ranking in the Google Maps pack, building a guest list with email and loyalty, filling slow nights and relying less on delivery apps.",
+  "Salons & spas": "Guides for salons, barbers and spas: raising your rebooking rate, winning back lapsed clients, Instagram that turns followers into appointments and an all-in-one growth plan.",
+  Fitness: "Guides for gyms and fitness studios: converting free trials into members, spotting churn early, win-back campaigns and the January surge.",
+  SEO: "Search engine optimization guides for small businesses: local SEO checklists, Google Business Profile, keyword research, technical audits, schema markup and site speed, explained without jargon.",
+  "AI search": "Guides to AI search visibility (GEO): how ChatGPT, Gemini and Perplexity choose which businesses to recommend, and what you can change so they name you instead of a competitor.",
+  Email: "Email marketing guides: landing in the inbox (SPF, DKIM, DMARC), building a list legally, welcome sequences that sell, email laws by country and choosing an email tool.",
+  WhatsApp: "WhatsApp Business guides: app vs API, message templates, the 24-hour rule, pricing and WhatsApp marketing across Africa, India and beyond.",
+  Growth: "Growth guides for small businesses: 30-day marketing plans, marketing budgets by industry, multi-location playbooks and regional guides for the US, UAE and more.",
+  Tools: "Honest comparisons of marketing tools for small businesses: all-in-one platforms, HubSpot and Mailchimp alternatives, and the best tools for India and Singapore — including where Growvia isn't the best fit.",
+  Leads: "Guides to capturing and converting leads: website contact forms that convert, spam protection and what should happen in the first five minutes after someone asks.",
+  Messaging: "Guides to texting and messaging customers: SMS marketing, TCPA consent, 10DLC registration and messages that get replies without risking fines.",
+  Social: "Social media guides for small businesses: content plans, AI-assisted posts and images, and a weekly rhythm you can keep.",
+  Reviews: "Guides to online reviews: how to respond to negative reviews safely in regulated professions, asking for reviews within Google's and the FTC's rules, and handling fake reviews.",
+};
