@@ -1,0 +1,7 @@
+.git
+.next
+node_modules
+tests
+deploy/env.yaml
+*.zip
+.env*
